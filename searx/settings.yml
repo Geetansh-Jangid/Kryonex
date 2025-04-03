@@ -127,7 +127,7 @@ ui:
   # infinite_scroll: When true, automatically loads the next page when scrolling to bottom of the current page.
   infinite_scroll: true
   # ui theme
-  default_theme: black
+  default_theme: simple
   # center the results ?
   center_alignment: false
   # URL prefix of the internet archive, don't forget trailing slash (if needed).
@@ -139,7 +139,7 @@ ui:
   # results_on_new_tab: false
   theme_args:
     # style of simple theme: auto, light, dark
-    simple_style: auto
+    simple_style: black
   # Perform search immediately if a category selected.
   # Disable to select multiple categories at once and start the search manually.
   search_on_category_select: true
