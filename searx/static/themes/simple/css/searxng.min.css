@@ -491,17 +491,17 @@ template {
     --color-favicon-border-color: #ccc
 }
 
-/* START OF AMOLED THEME MODIFICATION */
+/* START OF AMOLED THEME MODIFICATION - WHITE ACCENT */
 :root.theme-black {
     /* Base Colors */
-    --color-base-font: #eaeaea; /* Light grey text for less harshness than pure white */
+    --color-base-font: #eaeaea; /* Light grey text */
     --color-base-font-rgb: 234, 234, 234;
     --color-base-background: #000000; /* True black background */
     --color-base-background-mobile: #000000; /* True black background */
 
-    /* Links */
-    --color-url-font: #ae81ff; /* Purple accent for links */
-    --color-url-visited-font: #8d5eff; /* Slightly different purple/dimmer for visited */
+    /* Links - White for primary, light grey for visited */
+    --color-url-font: #ffffff; /* White for links */
+    --color-url-visited-font: #cccccc; /* Light grey for visited */
 
     /* Layout Elements (Header, Footer, Sidebar) */
     --color-header-background: #000000; /* True black */
@@ -512,11 +512,11 @@ template {
     --color-sidebar-font: #eaeaea; /* Light text */
     --color-sidebar-background: #000000; /* True black */
 
-    /* Buttons & Interactive Elements */
+    /* Buttons & Interactive Elements - Dark buttons, white text */
     --color-backtotop-font: #cccccc;
     --color-backtotop-border: #333333;
     --color-backtotop-background: #191919; /* Very dark grey */
-    --color-btn-background: #9333ea; /* Purple accent (like Tailwind purple-600) */
+    --color-btn-background: #444444; /* Medium-dark grey button */
     --color-btn-font: #ffffff; /* White text on button */
     --color-show-btn-background: #333333; /* Dark grey for secondary buttons */
     --color-show-btn-font: #eaeaea; /* Light text */
@@ -526,7 +526,7 @@ template {
     --color-search-shadow: 0 1px 4px rgba(255, 255, 255, 0.05); /* Subtle white shadow */
     --color-search-background: #191919; /* Very dark grey input */
     --color-search-font: #eaeaea; /* Light text */
-    --color-search-background-hover: #9333ea; /* Purple accent on hover */
+    --color-search-background-hover: #2a2a2a; /* Lighter dark grey hover */
     --color-autocomplete-font: #eaeaea;
     --color-autocomplete-border: #333333;
     --color-autocomplete-shadow: 0 2px 8px rgba(255, 255, 255, .1); /* Subtle white shadow */
@@ -539,11 +539,11 @@ template {
     --color-warning: #facc15; /* Bright yellow */
     --color-warning-background: #422006; /* Dark orange/brown background */
     --color-success: #22c55e; /* Bright green */
-    --color-success-background: #052e16; /* Dark green background (like screenshot badge) */
+    --color-success-background: #052e16; /* Dark green background */
 
-    /* Categories */
-    --color-categories-item-selected-font: #d8b4fe; /* Lighter purple for selected text */
-    --color-categories-item-border-selected: #9333ea; /* Purple accent border */
+    /* Categories - White accent */
+    --color-categories-item-selected-font: #ffffff; /* White selected text */
+    --color-categories-item-border-selected: #ffffff; /* White border */
 
     /* Results Area */
     --color-answer-font: #cccccc;
@@ -554,12 +554,12 @@ template {
     --color-result-background: #111111; /* Very dark grey for result cards */
     --color-result-border: #333333; /* Dark grey */
     --color-result-url-font: #999999; /* Dimmer grey for URL */
-    --color-result-vim-selected: #ffffff1a; /* Semi-transparent white overlay */
-    --color-result-vim-arrow: #9333ea; /* Purple accent */
+    --color-result-vim-selected: #ffffff1f; /* Semi-transparent white overlay */
+    --color-result-vim-arrow: #ffffff; /* White arrow/border */
     --color-result-description-highlight-font: #ffffff; /* White highlight */
-    --color-result-link-font: #ae81ff; /* Purple links in results */
-    --color-result-link-font-highlight: #ae81ff;
-    --color-result-link-visited-font: #8d5eff; /* Different purple/dimmer visited */
+    --color-result-link-font: #ffffff; /* White links in results */
+    --color-result-link-font-highlight: #ffffff;
+    --color-result-link-visited-font: #cccccc; /* Light grey visited */
     --color-result-publishdate-font: #888888; /* Medium grey */
     --color-result-engines-font: #777777; /* Darker medium grey */
     --color-result-search-url-border: #333333;
@@ -567,13 +567,13 @@ template {
 
     /* Image Results & Detail View */
     --color-result-image-span-font: #cccccc;
-    --color-result-image-span-font-selected: #000000; /* Black text on purple selection */
+    --color-result-image-span-font-selected: #000000; /* Black text on white selection */
     --color-result-image-background: #111111; /* Dark grey for image placeholder */
     --color-result-detail-font: #eaeaea;
     --color-result-detail-label-font: #aaaaaa;
     --color-result-detail-background: #000000; /* True black for detail */
     --color-result-detail-hr: #444444;
-    --color-result-detail-link: #ae81ff; /* Purple links */
+    --color-result-detail-link: #ffffff; /* White links */
     --color-result-detail-loader-border: rgba(255, 255, 255, .2);
     --color-result-detail-loader-borderleft: rgba(255, 255, 255, 0);
 
@@ -597,13 +597,13 @@ template {
     --color-toolkit-input-text-font: #eaeaea; /* Light text in inputs */
     --color-toolkit-checkbox-onoff-off-background: #333333;
     --color-toolkit-checkbox-onoff-on-background: #333333;
-    --color-toolkit-checkbox-onoff-on-mark-background: #9333ea; /* Purple accent */
-    --color-toolkit-checkbox-onoff-on-mark-color: #ffffff; /* White check */
+    --color-toolkit-checkbox-onoff-on-mark-background: #ffffff; /* White ON mark */
+    --color-toolkit-checkbox-onoff-on-mark-color: #000000; /* Black check symbol */
     --color-toolkit-checkbox-onoff-off-mark-background: #777777; /* Grey off mark */
     --color-toolkit-checkbox-onoff-off-mark-color: #111111; /* Dark text */
     --color-toolkit-checkbox-label-background: #000000;
     --color-toolkit-checkbox-label-border: #333333;
-    --color-toolkit-checkbox-input-border: #9333ea; /* Purple accent */
+    --color-toolkit-checkbox-input-border: #cccccc; /* Light grey border for standard checkbox */
     --color-toolkit-engine-tooltip-border: #333333;
     --color-toolkit-engine-tooltip-background: #111111;
     --color-toolkit-loader-border: rgba(255, 255, 255, .2);
@@ -618,15 +618,15 @@ template {
     --color-favicon-border-color: #444444;
 
     /* Charts (Keep existing or adjust if needed) */
-    --color-bar-chart-primary: #5bc0de;
-    --color-bar-chart-secondary: #deb15b;
+    --color-bar-chart-primary: #cccccc; /* Use light grey for primary bar */
+    --color-bar-chart-secondary: #999999; /* Use darker grey for secondary bar */
     --color-image-resolution-background: rgba(0, 0, 0, .7); /* More opaque black */
     --color-image-resolution-font: #ffffff;
     --color-loading-indicator: rgba(0, 0, 0, .2);
     --color-loading-indicator-gap: #333;
     --color-line-number: #555555; /* Dark grey line numbers */
 }
-/* END OF AMOLED THEME MODIFICATION */ 
+/* END OF AMOLED THEME MODIFICATION - WHITE ACCENT */
 
 .code-highlight pre {
     line-height: 100%
