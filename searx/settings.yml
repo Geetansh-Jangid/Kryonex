@@ -97,7 +97,7 @@ server:
 
   secret_key: "d772f9a016a09e1c1e5a3c72838b0bb536f43cdf5797c37908e8a77be4aa0f7a"  # Is overwritten by ${SEARXNG_SECRET}
   # Proxy image results through SearXNG. Is overwritten by ${SEARXNG_IMAGE_PROXY}
-  image_proxy: false
+  image_proxy: true
   # 1.0 and 1.1 are supported
   http_protocol_version: "1.0"
   # POST queries are more secure as they don't show up in history but may cause
