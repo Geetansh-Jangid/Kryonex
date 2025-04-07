@@ -734,7 +734,7 @@ engines:
     engine: duckduckgo_definitions
     shortcut: ddd
     weight: 2
-    disabled: false
+    disabled: true
     tests: *tests_infobox
 
   # cloudflare protected
@@ -1525,6 +1525,7 @@ engines:
   - name: pinterest
     engine: pinterest
     shortcut: pin
+    disabled: true
 
   - name: piped
     engine: piped
@@ -1657,6 +1658,7 @@ engines:
   - name: public domain image archive
     engine: public_domain_image_archive
     shortcut: pdia
+    disabled: true
 
   - name: pubmed
     engine: pubmed
@@ -2220,6 +2222,7 @@ engines:
     categories: images
     search_type: images
     number_of_results: 10
+    disabled: true
 
   - name: wikicommons.videos
     engine: wikicommons
@@ -2499,7 +2502,7 @@ engines:
     engine: svgrepo
     shortcut: svg
     timeout: 10.0
-    disabled: false
+    disabled: true
 
   - name: tootfinder
     engine: tootfinder
