@@ -759,7 +759,7 @@ engines:
     url_query: SourceURL
     title_query: Title
     content_query: Description
-    disabled: false
+    disabled: true
     about:
       website: https://encyclosearch.org
       official_api_documentation: https://encyclosearch.org/docs/#/rest-api
@@ -811,6 +811,7 @@ engines:
     display_type: ["infobox"]
     tests: *tests_infobox
     categories: [general]
+    disabled: true
 
   - name: duckduckgo
     engine: duckduckgo
@@ -2116,7 +2117,7 @@ engines:
     categories: [general, wikimedia]
     base_url: "https://{language}.wikibooks.org/"
     search_type: text
-    disabled: false
+    disabled: true
     about:
       website: https://www.wikibooks.org/
       wikidata_id: Q367
@@ -2139,7 +2140,7 @@ engines:
     categories: [general, wikimedia]
     base_url: "https://{language}.wikiquote.org/"
     search_type: text
-    disabled: false
+    disabled: true
     additional_tests:
       rosebud: *test_rosebud
     about:
@@ -2253,7 +2254,7 @@ engines:
     engine: wolframalpha_noapi
     timeout: 6.0
     categories: general
-    disabled: false
+    disabled: true
 
   - name: dictzone
     engine: dictzone
