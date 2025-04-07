@@ -2564,6 +2564,7 @@ engines:
     shortcut: brimg
     categories: [images, web]
     brave_category: images
+    disabled: true
 
   - name: brave.videos
     engine: brave
