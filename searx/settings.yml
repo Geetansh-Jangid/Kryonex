@@ -663,7 +663,7 @@ engines:
     content_query: snippet
     title_html_to_text: true
     content_html_to_text: true
-    disabled: false
+    disabled: true
     about:
       website: https://crowdview.ai/
 
@@ -1041,7 +1041,7 @@ engines:
     categories: [files, apps]
     shortcut: gpa
     play_categ: apps
-    disabled: false
+    disabled: true
 
   - name: google play movies
     engine: google_play
@@ -1685,6 +1685,7 @@ engines:
     engine: qwant
     shortcut: qw
     categories: [general, web]
+    disabled: true
     additional_tests:
       rosebud: *test_rosebud
 
@@ -1694,6 +1695,7 @@ engines:
     shortcut: qwn
     categories: news
     network: qwant
+    disabled: true
 
   - name: qwant images
     qwant_categ: images
@@ -1709,6 +1711,7 @@ engines:
     shortcut: qwv
     categories: [videos, web]
     network: qwant
+    disabled: true
 
   # - name: library
   #   engine: recoll
@@ -1760,7 +1763,7 @@ engines:
     content_xpath: .
     categories: general
     shortcut: rd
-    disabled: false
+    disabled: true
     about:
       website: https://rightdao.com/
       use_official_api: false
@@ -1799,7 +1802,7 @@ engines:
     url_xpath: .//a[contains(@class,'result-link')]/@href
     title_xpath: .//span[contains(@class,'result-title-txt')]/text()
     content_xpath: ./p[@id='result-hightlight']
-    disabled: false
+    disabled: true
     about:
       website: https://searchmysite.net
 
