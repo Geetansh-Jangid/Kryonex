@@ -2,7 +2,8 @@
 
 ----
 
-.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng.svg
+.. figure:: 
+https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/blob/master/searx/static/themes/simple/img/searxng.svg
    :target: https://docs.searxng.org/
    :alt: SearXNG
    :width: 100%
