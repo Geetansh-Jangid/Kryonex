@@ -3,9 +3,9 @@
 ----
 
 .. figure:: https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.svg
-   :target: https://docs.searxng.org/
-   :alt: SearXNG
-   :width: 100%
+   :target: https://kryonex.onrender.com/
+   :alt: Kryonex
+   :width: 25%
    :align: center
 
 ----
