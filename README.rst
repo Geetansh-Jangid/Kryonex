@@ -1,9 +1,10 @@
 
-.. figure:: https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.png
+.. figure:: https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.svg
    :target: https://kryonex.onrender.com/
    :alt: Kryonex
-   :width: 25%
+   :height: 25%
    :align: center
+
 
 Privacy-respecting, hackable `metasearch engine`_
 
