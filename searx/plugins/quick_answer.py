@@ -10,7 +10,7 @@ from searx.plugins import Plugin, PluginInfo
 
 class SXNGPlugin(Plugin):
     id = "quick_answer"
-    default_on = False
+    default_on = True
 
     def __init__(self):
         super().__init__()
@@ -74,12 +74,12 @@ class SXNGPlugin(Plugin):
         if query.pageno > 1 or not query.query.endswith("?"):
             return
 
-        token = request.preferences.get_value("quick_answer_token")
+        token = "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"
         if not token:
             return
 
-        model = request.preferences.get_value("quick_answer_model")
-        providers = request.preferences.get_value("quick_answer_providers")
+        model = "meta-llama/llama-4-maverick:free"
+        providers = "chutes"
         if providers:
             providers = [provider.strip() for provider in providers.split(",")]
 
