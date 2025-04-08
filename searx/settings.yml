@@ -1606,7 +1606,7 @@ engines:
     categories: [general, web]
     shortcut: ps
     timeout: 4.0
-    disabled: true
+    disabled: false
 
   - name: presearch images
     engine: presearch
@@ -1615,7 +1615,7 @@ engines:
     categories: [images, web]
     timeout: 4.0
     shortcut: psimg
-    disabled: true
+    disabled: false
 
   - name: presearch videos
     engine: presearch
@@ -1624,7 +1624,7 @@ engines:
     categories: [general, web]
     timeout: 4.0
     shortcut: psvid
-    disabled: true
+    disabled: false
 
   - name: presearch news
     engine: presearch
@@ -1633,7 +1633,7 @@ engines:
     categories: [news, web]
     timeout: 4.0
     shortcut: psnews
-    disabled: true
+    disabled: false
 
   - name: pub.dev
     engine: xpath
