@@ -1,7 +1,8 @@
 
-.. figure:: https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.svg
+.. figure:: https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.png
    :target: https://kryonex.onrender.com/
    :alt: Kryonex
+   :height: 25%
    :align: center
 
 
