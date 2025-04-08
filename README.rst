@@ -5,6 +5,7 @@
    :width: 25%
    :align: right
 
+----
 
 Privacy-respecting, hackable `metasearch engine`_
 
