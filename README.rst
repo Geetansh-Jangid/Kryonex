@@ -3,7 +3,7 @@
 ----
 
 .. figure:: 
-https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/blob/master/searx/static/themes/simple/img/searxng.svg
+https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.svg
    :target: https://docs.searxng.org/
    :alt: SearXNG
    :width: 100%
