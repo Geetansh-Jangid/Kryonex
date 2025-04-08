@@ -3,7 +3,7 @@
 .. figure:: https://raw.githubusercontent.com/Geetansh-Jangid/Kryonex/refs/heads/master/searx/static/themes/simple/img/searxng.svg
    :target: https://kryonex.onrender.com/
    :alt: Kryonex
-   :width: 25%
+   :width: 100%
    :align: center
 
 ----
